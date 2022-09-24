@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github.com/My-Stones.git/static/css/main.ec958f83.css",
+    "main.js": "/github.com/My-Stones.git/static/js/main.abaf9813.js",
+    "static/media/slide1.jpg": "/github.com/My-Stones.git/static/media/slide1.b006e5d3f7d60d7b1070.jpg",
+    "static/media/slide2.jpg": "/github.com/My-Stones.git/static/media/slide2.b006e5d3f7d60d7b1070.jpg",
+    "static/media/slide3.jpg": "/github.com/My-Stones.git/static/media/slide3.b006e5d3f7d60d7b1070.jpg",
+    "static/media/slide4.jpg": "/github.com/My-Stones.git/static/media/slide4.b006e5d3f7d60d7b1070.jpg",
+    "static/media/slide5.jpg": "/github.com/My-Stones.git/static/media/slide5.b006e5d3f7d60d7b1070.jpg",
+    "static/media/logo.svg": "/github.com/My-Stones.git/static/media/logo.e6fef264d62888f53ab194c7393e8522.svg",
+    "static/media/search.svg": "/github.com/My-Stones.git/static/media/search.84ab7b2fcf8acd52a20536913958bd47.svg",
+    "static/media/account.svg": "/github.com/My-Stones.git/static/media/account.547b7c2c8dd7cbf93c9bdd473ac6e20b.svg",
+    "static/media/cart.svg": "/github.com/My-Stones.git/static/media/cart.9abf06c451b3cca84528855be148682b.svg",
+    "index.html": "/github.com/My-Stones.git/index.html",
+    "main.ec958f83.css.map": "/github.com/My-Stones.git/static/css/main.ec958f83.css.map",
+    "main.abaf9813.js.map": "/github.com/My-Stones.git/static/js/main.abaf9813.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec958f83.css",
+    "static/js/main.abaf9813.js"
+  ]
+}
