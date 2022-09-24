@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.App {
+  max-width: 1440px;
+  width: 100%;
+  padding: 64px 96px 90px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__nav-list > li {
+  padding-right: 64px;
+}
+.header__nav-list > li > a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__nav-list > li:nth-child(3) {
+  padding-right: 0;
+}
+.header__nav-list > li:nth-child(4) {
+  padding: 0 48px;
+}
+.header__nav-list > li:nth-child(5) {
+  padding: 0 39px 0 0;
+}
+.header__nav-list > li:nth-child(6) {
+  padding: 0 39px 0 0;
+}
+.header__nav-list > li:nth-child(7) {
+  padding-right: 0;
+}
+
+.header__nav-strip {
+  background-color: #000;
+  width: 1px;
+  height: 17px;
+}
+
+.slider {
+  height: 646px;
+  position: relative;
+  margin-bottom: 64px;
+}
+.slider__list {
+  height: 100%;
+}
+.slider__dots {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.slider__dot {
+  width: 9px;
+  height: 9px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 13px;
+  cursor: pointer;
+}
+.slider__dot:last-child {
+  margin-right: 0;
+}
+
+.selected {
+  width: 16px;
+  height: 16px;
+  background-color: rgba(194, 175, 0, 0);
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.slide {
+  background-color: rgb(139, 90, 90);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity ease-in-out 1s;
+  transition: opacity ease-in-out 1s;
+}
+.slide.active {
+  opacity: 1;
+}
+.slide__title {
+  font-size: 33px;
+  line-height: 43px;
+  font-weight: 500;
+  color: #fff;
+  position: absolute;
+  top: 226px;
+  left: 39px;
+}
+.slide__subtitle {
+  font-size: 26px;
+  line-height: 35px;
+  font-weight: 400;
+  color: #fff;
+  position: absolute;
+  top: 285px;
+  left: 39px;
+}
+.slide__btn {
+  height: 53px;
+  padding: 13px 32px;
+  border: 2px solid #FFFFFF;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: rgba(28, 28, 28, 0);
+  position: absolute;
+  top: 368px;
+  left: 39px;
+}
+
+.root {
+  height: 100%;
+}
