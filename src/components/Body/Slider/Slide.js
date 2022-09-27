@@ -4,7 +4,7 @@ import SlideSubtitle from "./SlideSubtitle";
 import SlideButton from "./SlideBtn";
 
 function Slide(props) {
-  const { title, subtitle, href, src, active, id } = props;
+  const { title, subtitle, href, src, active } = props;
   
   return (
     <div className={active === true ? "slide active" : "slide"}>

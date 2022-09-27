@@ -5,7 +5,7 @@ function SliderList(props) {
 
   return (
     <div className="slider__list">
-      {data.map((slide, index) => (
+      {data.map((slide) => (
         <Slide
           key={slide.id}
           active = {currentSlideId === slide.id ? true : false}

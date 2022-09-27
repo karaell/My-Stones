@@ -2,10 +2,10 @@
 
 const initialState = {};
 
-const slideSlice = createSlice({
-    name: "slider",
+const sliderSlice = createSlice({
+    name: "currentSlide",
     initialState,
     reducers: {
-        
+
     }
 }) */
